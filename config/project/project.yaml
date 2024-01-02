@@ -1,4 +1,4 @@
-dateModified: 1702828307
+dateModified: 1704198235
 email:
   fromEmail: r0934635@student.thomasmore.be
   fromName: examen-sieme
@@ -28,6 +28,11 @@ meta:
     d77765ba-62a2-4ec7-9ec7-6d0685d1bbee: 'product photo' # product photo
     ea5b6346-f55d-44d3-baee-502695102787: 'discount percentage' # discount percentage
     f733e2e4-8e14-49b4-bf50-5b0cc5efc7c2: Common # Common
+plugins:
+  element-api:
+    edition: standard
+    enabled: true
+    schemaVersion: 1.0.0
 system:
   edition: solo
   live: true
