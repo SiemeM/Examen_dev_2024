@@ -1,0 +1,20 @@
+columnSuffix: qvnawahp
+contentColumnType: smallint(3)
+fieldGroup: f733e2e4-8e14-49b4-bf50-5b0cc5efc7c2 # Common
+handle: discountPercentage
+instructions: 'Toon als percentage'
+name: 'discount percentage'
+searchable: false
+settings:
+  decimals: 0
+  defaultValue: null
+  max: 100
+  min: 1
+  prefix: null
+  previewCurrency: null
+  previewFormat: decimal
+  size: null
+  suffix: null
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Number

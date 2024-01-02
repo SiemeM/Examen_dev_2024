@@ -1,0 +1,14 @@
+columnSuffix: judeycwn
+contentColumnType: boolean
+fieldGroup: f733e2e4-8e14-49b4-bf50-5b0cc5efc7c2 # Common
+handle: homePageSale
+instructions: 'Do you want to put this item on home page? (Max 6 items)'
+name: 'Home page sale'
+searchable: false
+settings:
+  default: false
+  offLabel: 'not on home page '
+  onLabel: 'on home page '
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Lightswitch

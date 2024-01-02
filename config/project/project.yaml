@@ -1,0 +1,42 @@
+dateModified: 1702828307
+email:
+  fromEmail: r0934635@student.thomasmore.be
+  fromName: examen-sieme
+  transportType: craft\mail\transportadapters\Sendmail
+fs:
+  StoreProductPhotos:
+    hasUrls: true
+    name: 'Store product photos'
+    settings:
+      path: '@webroot'
+    type: craft\fs\Local
+    url: '@web'
+meta:
+  __names__:
+    0be664a8-94fb-4894-89d8-429cbfe2e294: 'Product transform' # Product transform
+    3bcfedaa-61c7-4635-9df9-e37620eb47e5: 'on sale' # on sale
+    5d557472-f6ee-43b9-ab50-a7414e66ddac: News # News
+    049f82b4-68f1-498e-87b3-d99548f94381: examen-sieme # examen-sieme
+    786d32de-dd52-49c9-91c6-c3fa7509ac7c: Products # Products
+    37742d5c-1fa1-4052-8e71-526568b36f23: Price # Price
+    41285acc-0dee-469b-962d-334e2c91c750: 'Home page sale' # Home page sale
+    67440c25-42a2-4fde-b3b2-9e7f353a5621: Description # Description
+    31345414-3347-4646-a236-349eb065e547: examen-sieme # examen-sieme
+    b2d7688c-0bdc-448d-a4ad-27780dcb1438: 'Product image' # Product image
+    b8005244-553e-4038-8f1e-d9c986b1fc0e: News # News
+    d105abee-5f87-4b64-9285-b33fc57aa1c4: Default # Default
+    d77765ba-62a2-4ec7-9ec7-6d0685d1bbee: 'product photo' # product photo
+    ea5b6346-f55d-44d3-baee-502695102787: 'discount percentage' # discount percentage
+    f733e2e4-8e14-49b4-bf50-5b0cc5efc7c2: Common # Common
+system:
+  edition: solo
+  live: true
+  name: examen-sieme
+  schemaVersion: 4.5.3.0
+  timeZone: America/Los_Angeles
+users:
+  allowPublicRegistration: false
+  defaultGroup: null
+  photoSubpath: null
+  photoVolumeUid: null
+  requireEmailVerification: true

@@ -1,0 +1,14 @@
+columnSuffix: qllliffl
+contentColumnType: boolean
+fieldGroup: f733e2e4-8e14-49b4-bf50-5b0cc5efc7c2 # Common
+handle: onSale
+instructions: null
+name: 'on sale'
+searchable: false
+settings:
+  default: false
+  offLabel: 'Not on sale'
+  onLabel: 'On sale '
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\Lightswitch

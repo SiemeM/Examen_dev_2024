@@ -1,0 +1,8 @@
+baseUrl: $PRIMARY_SITE_URL
+handle: default
+hasUrls: true
+language: en-US
+name: examen-sieme
+primary: true
+siteGroup: 049f82b4-68f1-498e-87b3-d99548f94381 # examen-sieme
+sortOrder: 1
