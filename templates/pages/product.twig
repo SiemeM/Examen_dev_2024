@@ -1,33 +1,42 @@
 {% extends  "_layout" %}
 
 {% block content %} 
+
+
+
+ <div class="oneproduct">
     {% set productSlug = craft.app.request.getSegment(2) %}
     {% set entry = craft.entries.section('products').slug(productSlug).one() %}
-
+    
     {% if entry %}
         {% if entry.onSale %}
-       <div>
-                <img src="{{entry.productImage.one().getUrl('') }}" alt="Product">
-                <h2>{{entry.title}}</h2>
-                <p>{{entry.description}}</p>
-                <p class="price"><s>{{entry.price}}</s></p>
-                 <p class="price">{{(entry.price * (1 - (entry.discountPercentage / 100)))|number_format(2, '.', ',') }}</p>
+            <div>
+                <img src="{{ entry.productImage.one().getUrl('') }}" alt="Product">
+                <h2>{{ entry.title }}</h2>
+                <p>{{ entry.description }}</p>
+                <p class="priceOld"><s>{{ entry.price }}</s></p>
+                <p class="price">{{ (entry.price * (1 - (entry.discountPercentage / 100)))|number_format(2, '.', ',') }}</p>
                 <p>Korting: {{ entry.discountPercentage }}%</p>
             </div>
-
-    {% else %}
-
- <div>
-                <img src="{{entry.productImage.one().getUrl('') }}" alt="Product">
-                <h2>{{entry.title}}</h2>
-                <p>{{entry.description}}</p>
-                <p class="price">{{entry.price}}</p>
-               
+        {% else %}
+            <div>
+                <img src="{{ entry.productImage.one().getUrl('') }}" alt="Product">
+                <h2>{{ entry.title }}</h2>
+                <p>{{ entry.description }}</p>
+                <p class="price">{{ entry.price }}</p>
             </div>
-
-            
-    {% endif %}
+        {% endif %}
     {% else %}
         <p>Product not found</p>
     {% endif %}
+</div>
+
+
+
+
+
+
 {% endblock %}
+
+
+

@@ -7,6 +7,6 @@ siteSettings:
   31345414-3347-4646-a236-349eb065e547: # examen-sieme
     enabledByDefault: true
     hasUrls: true
-    template: pages/product
+    template: pages/product.twig
     uriFormat: 'products/{slug}'
 type: channel

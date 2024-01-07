@@ -16,6 +16,7 @@ return [
 
                 'transformer' => function(Entry $entry) {
                     return [
+                        'id' => $entry->id,
                         'productImage' => str_replace("https","http",$entry->productImage->one()->getUrl()),
                         'title' => $entry->title,
                         'description' => $entry->description,
@@ -37,6 +38,7 @@ return [
 
                 'transformer' => function(Entry $entry) {
                     return [
+                        'id' => $entry->id,
                         'productImage' => str_replace("https","http",$entry->productImage->one()->getUrl()),
                         'title' => $entry->title,
                         'description' => $entry->description,

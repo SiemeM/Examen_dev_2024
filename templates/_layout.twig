@@ -1,35 +1,28 @@
-<html lang="{{craft.app.language}}">
-
+<html lang="{{ craft.app.language }}">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Your Fashion Webshop</title>
-      {% do craft.app.view.registerCssFile('@web/styles/style.css') %}
-   
+    {% do craft.app.view.registerCssFile('@web/styles/style.css') %}
 </head>
 
 <body>
 
-{% set entries = craft.entries().section('news')%}
-{% for entry in entries %}
+    {% set entries = craft.entries().section('news') %}
+    {% for entry in entries %}
+        <!-- Navigation Header -->
+        <div class="news">{{ entry.title }}</div>
+    {% endfor %}
 
-    <!-- Navigation Header -->
-
-    <div class="news">{{entry.title}}</div>
     <header>
-
-         {% endfor %}  
-
-
         <div class="logo">
-           <a href="{{siteUrl}}"><img src="/images/macquoy.png" alt="Fashion Logo"></a>
-
+            <a href="{{ siteUrl }}"><img src="/images/macquoy.png" alt="Fashion Logo"></a>
         </div>
         <nav>
             <ul>
-                <li><a href="{{siteUrl}}">Home</a></li>
-                <li><a href="{{siteUrl}}shop">Shop</a></li>
+                <li><a href="{{ siteUrl }}">Home</a></li>
+                <li><a href="{{ siteUrl }}shop">Shop</a></li>
                 <li><a href="#">About Us</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
@@ -37,18 +30,12 @@
     </header>
 
     {% block content %}
-    {# hier komt de content #}
+        {# hier komt de content #}
     {% endblock %}
-   
-   
 
     <footer>
         <p>&copy; 2023 Macquoy</p>
     </footer>
-
-</body>
-
-</html>
 
 </body>
 </html>

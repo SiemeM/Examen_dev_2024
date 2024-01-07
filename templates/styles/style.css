@@ -2,10 +2,10 @@ body {
     font-family: 'jost', sans-serif;
     margin: 0;
     padding: 0;
-    
+
 }
 
-a{
+a {
     text-decoration: none;
     color: #000;
 }
@@ -23,12 +23,13 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1% 5% 0% 5%; 
-   
+    padding: 1% 5% 0% 5%;
+
 }
 
 .logo img {
-    max-width: 200px; /* Adjust the max-width as needed */
+    max-width: 200px;
+    /* Adjust the max-width as needed */
     padding-bottom: 20px;
 }
 
@@ -37,7 +38,7 @@ nav ul {
     margin: 0;
     padding: 0;
     display: flex;
-    
+
 }
 
 nav ul li {
@@ -48,12 +49,13 @@ nav a {
     text-decoration: none;
     color: black;
     font-weight: light;
-   
+
 }
 
 .foto {
-    height: 700px; /* Set the height as needed */
-    background: url('../images/home.png') top/cover no-repeat; 
+    height: 700px;
+    /* Set the height as needed */
+    background: url('../images/home.png') top/cover no-repeat;
 
 }
 
@@ -72,7 +74,7 @@ footer {
     width: 100%;
 }
 
-.btn{
+.btn {
     padding: 10px 20px;
     background-color: #333;
     color: #fff;
@@ -82,7 +84,7 @@ footer {
     cursor: pointer;
 }
 
-.btn:hover{
+.btn:hover {
     background-color: #555;
 }
 
@@ -93,7 +95,7 @@ footer {
     --cardWidth: 240px;
     --cardHeight: 500px;
     --cardMargin: 16px;
-    
+
 }
 
 h1 {
@@ -105,10 +107,13 @@ h1 {
 
 .main-section {
     display: flex;
-    justify-content: center; /* Center the cards horizontally */
-    align-items: center; /* Center the cards vertically */
+    justify-content: center;
+    /* Center the cards horizontally */
+    align-items: center;
+    /* Center the cards vertically */
     flex-wrap: wrap;
-    min-height: 10vh; /* Ensure the container takes at least the full viewport height */
+    min-height: 10vh;
+    /* Ensure the container takes at least the full viewport height */
 }
 
 .card {
@@ -142,18 +147,83 @@ h1 {
     font-weight: bold;
     color: #333;
     display: inline-block;
-    margin-right: 10px; 
+    margin-right: 10px;
 }
 
 
 
-h3{
+h3 {
     padding: 1% 5% 0% 5%;
     text-align: center;
     font-size: 40px;
-    font-family: quakiez; 
+    font-family: quakiez;
 
 }
+
+
+
+.filter-categories {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 100%;
+    /* Adjust the maximum width as needed */
+    margin: 10px;
+    padding: 10px;
+    background-color: #fff;
+    /* Adjust the background color as needed */
+
+}
+
+.filter-categories label {
+    margin: 5px;
+    padding: 10px;
+    background-color: #3b444b;
+    /* Adjust the background color for each checkbox label */
+    border-radius: 4px;
+    /* Add rounded corners for each checkbox label */
+    cursor: pointer;
+    color: #fffff2;
+}
+
+
+
+.filter-categories input {
+    display: none;
+}
+
+
+.filter-categories label:has(input:checked) {
+
+    color: #fffff2;
+    background-color: #D24335;
+}
+
+
+.oneproduct {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+
+}
+
+
+.oneproduct img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+
+
+.priceOld {
+
+    color: #ff5733;
+    /* or any other color you prefer */
+    margin-top: 10px;
+}
+
 
 
 

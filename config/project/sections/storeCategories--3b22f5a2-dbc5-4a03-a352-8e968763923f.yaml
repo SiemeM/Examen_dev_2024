@@ -1,0 +1,15 @@
+defaultPlacement: end
+enableVersioning: true
+handle: storeCategories
+name: 'Store categories'
+propagationMethod: all
+siteSettings:
+  31345414-3347-4646-a236-349eb065e547: # examen-sieme
+    enabledByDefault: true
+    hasUrls: true
+    template: store-categories/_entry
+    uriFormat: 'store-categories/{slug}'
+structure:
+  maxLevels: null
+  uid: 23e0426e-74bf-4615-b6bc-0f79dedc03d2
+type: structure
