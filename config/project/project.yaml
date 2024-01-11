@@ -1,4 +1,4 @@
-dateModified: 1704633313
+dateModified: 1704893489
 email:
   fromEmail: r0934635@student.thomasmore.be
   fromName: examen-sieme
@@ -36,6 +36,16 @@ plugins:
     edition: standard
     enabled: true
     schemaVersion: 1.0.0
+  poptin:
+    client_id: 8c23e69c9fe65
+    edition: standard
+    enabled: true
+    login_url: ''
+    pixel_url: 'https://cdn.popt.in'
+    poptin_url: 'https://app.popt.in'
+    schemaVersion: 1.0.0
+    token: 6bxVzXErgEq3EQHs3YuMAT5rzacFrPUxw9mFcElRKStgNIdnLYBLzERZIMzM
+    user_id: 909ce53c76049
   social-share:
     edition: standard
     enabled: true

@@ -14,8 +14,8 @@
                 <img src="{{ entry.productImage.one().getUrl('') }}" alt="Product">
                 <h2>{{ entry.title }}</h2>
                 <p>{{ entry.description }}</p>
-                <p class="priceOld"><s>{{ entry.price }}</s></p>
-                <p class="price">{{ (entry.price * (1 - (entry.discountPercentage / 100)))|number_format(2, '.', ',') }}</p>
+                <p class="priceOld"><s>€ {{ entry.price }}</s></p>
+                <p class="price">€ {{ (entry.price * (1 - (entry.discountPercentage / 100)))|number_format(2, '.', ',') }}</p>
                 <p>Korting: {{ entry.discountPercentage }}%</p>
             </div>
         {% else %}
@@ -23,7 +23,7 @@
                 <img src="{{ entry.productImage.one().getUrl('') }}" alt="Product">
                 <h2>{{ entry.title }}</h2>
                 <p>{{ entry.description }}</p>
-                <p class="price">{{ entry.price }}</p>
+                <p class="price">€ {{ entry.price }}</p>
             </div>
         {% endif %}
     {% else %}

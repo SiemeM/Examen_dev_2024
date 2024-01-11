@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ef7e0ee483f52fdb7cb882531636fc18",
+    "content-hash": "f7bd797d3aaa351c69fe575c4cb1b4bc",
     "packages": [
         {
             "name": "cebe/markdown",
@@ -491,11 +491,11 @@
         },
         {
             "name": "craftcms/cms",
-            "version": "4.5.14",
+            "version": "4.6.0",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/craftcms/cms/zipball/27277014272e8d372f0294bee60b274816f336b9",
-                "reference": "27277014272e8d372f0294bee60b274816f336b9",
+                "url": "https://api.github.com/repos/craftcms/cms/zipball/4d5f71c154cd2e01cfd771e55ed43703a59cf844",
+                "reference": "4d5f71c154cd2e01cfd771e55ed43703a59cf844",
                 "shasum": ""
             },
             "require": {
@@ -583,7 +583,7 @@
                 "docs": "https://craftcms.com/docs/4.x/",
                 "rss": "https://github.com/craftcms/cms/releases.atom"
             },
-            "time": "2024-01-02T17:52:44+00:00"
+            "time": "2024-01-09T17:57:33+00:00"
         },
         {
             "name": "craftcms/element-api",
@@ -2517,11 +2517,11 @@
         },
         {
             "name": "phpstan/phpdoc-parser",
-            "version": "1.24.5",
+            "version": "1.25.0",
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpdoc-parser/zipball/fedf211ff14ec8381c9bf5714e33a7a552dd1acc",
-                "reference": "fedf211ff14ec8381c9bf5714e33a7a552dd1acc",
+                "url": "https://api.github.com/repos/phpstan/phpdoc-parser/zipball/bd84b629c8de41aa2ae82c067c955e06f1b00240",
+                "reference": "bd84b629c8de41aa2ae82c067c955e06f1b00240",
                 "shasum": ""
             },
             "require": {
@@ -2539,7 +2539,7 @@
                 "MIT"
             ],
             "description": "PHPDoc parser with support for nullable, intersection and generic types",
-            "time": "2023-12-16T09:33:33+00:00"
+            "time": "2024-01-04T17:06:16+00:00"
         },
         {
             "name": "pixelandtonic/imagine",
@@ -2589,6 +2589,52 @@
                 "image processing"
             ],
             "time": "2023-01-03T19:18:06+00:00"
+        },
+        {
+            "name": "poptin/poptin",
+            "version": "2.0.3",
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/poptins/craftcms-poptin-app/zipball/6a8aab49cb2394da3ebbd2cbf255b4ad098b2ea1",
+                "reference": "6a8aab49cb2394da3ebbd2cbf255b4ad098b2ea1",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": "^4.0"
+            },
+            "type": "craft-plugin",
+            "extra": {
+                "name": "Poptin",
+                "handle": "poptin",
+                "developer": "Poptin",
+                "developerUrl": "poptin.com",
+                "documentationUrl": "https://github.com/poptins/craftcms-poptin-app/blob/master/README.md",
+                "changelogUrl": "https://github.com/poptins/craftcms-poptin-app/blob/master/CHANGELOG.md",
+                "class": "poptin\\poptin\\Poptin"
+            },
+            "autoload": {
+                "psr-4": {
+                    "poptin\\poptin\\": "src/"
+                }
+            },
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Poptin",
+                    "homepage": "https://poptin.com"
+                }
+            ],
+            "description": "Create advanced website popups and forms, and improve your website's conversion rate within a few minutes.",
+            "keywords": [
+                "cms",
+                "craft",
+                "craft-plugin",
+                "craftcms",
+                "poptin"
+            ],
+            "time": "2023-08-22T07:28:15+00:00"
         },
         {
             "name": "psr/clock",

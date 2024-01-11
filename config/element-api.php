@@ -23,6 +23,7 @@ return [
                         'price' => $entry->price,
                         'onSale' => $entry->onSale,
                         'discountPercentage' => $entry->discountPercentage,
+
                     ];
                 },
             ];
